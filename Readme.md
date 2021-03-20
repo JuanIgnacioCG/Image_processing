@@ -1,7 +1,6 @@
-# USE-CASES
+# EXERCISES-SET-UP
 
-This repository contains lessons for the Juan Ignacio's tutorials/use-cases. Each  is a
-[jupyter lab](https://jupyter.org/), located inside the `use-cases` folder.
+This repository contains lessons for the Juan Ignacio's exercises. 
 
 To be able to run the code you should do the following three steps.
 
@@ -10,28 +9,21 @@ To be able to run the code you should do the following three steps.
 Download [anaconda](https://www.anaconda.com/products/individual) and install for your operative system. 
 
 
-# 1. setup
+# 1. Set-up
 
 Start by downloading this repository. If you already use git, you can use the
 following command to clone this repository to your local machine:
 
 ```
-git clone https://github.com/sofroniewn/napari-training-course
+https://github.com/JuanIgnacioCG/Image_processing.git
 ```
 
 If you don't already use git, you can download the whole repository as a zip
 file, which you can then unzip on your computer. The file is available at green button where it is written 'code' in the upper part of the web:
 
 
-Once cloned or unzipped you should open an 'Anaconda-prompt' or terminal and navigate to the `napari-training-course`
+Once cloned or unzipped you should open an 'Anaconda-prompt' or terminal and navigate to the folder
 directory from the command line replacing if necessary '(yourpath_use-cases)'.
-
-```
-cd (yourpath_use-cases)napari-training-course
-```
-
-Another option is to open the anaconda-navigator, in the environment tab select import and select the 'napari.yml' file from the location you downloaded.
-
 
 # 2. installation
 
@@ -42,10 +34,10 @@ Once you have a working conda installation, you have two options. The second
 one should work in non-conda environments too but only do this if you know what
 you are doing!
 
-## a. create a conda environment for the use-cases (recommended)
+## a. create a conda environment for the exercises (recommended)
 
 We have provided a pre-defined environment for you to use. Using the command line,
-you can create it with the command:
+you can create it with the command inside the provided folder:
 
 ```python
 conda env create -f napari.yml
@@ -56,6 +48,8 @@ And then activate it with:
 ```python
 conda activate napari
 ```
+
+Another option is to open the anaconda-navigator, in the environment tab select import and select the 'napari.yml' file available.
 
 ## or b. use a pre-existing conda environment (alternative)
 
